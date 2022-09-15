@@ -42,17 +42,17 @@
  */
         internal static void PrintFrame2(int width, int height, char frameChar = '*')
         {
-            int i = 0;  // инициализируем счётчик строк
-            PrintLine(width, height, frameChar, true);  // печатаем первую строчку
+            int i = 0;
+            PrintLine(width, height, frameChar, true);
             ++i;
 
-            while (i < height - 1)  // печатаем строчки со второй до предпоследней
+            while (i < height - 1)
             {
                 PrintLine(width, height, frameChar, false);
                 ++i;
             }
             
-            PrintLine(width, height, frameChar, true);  // печатаем последнюю строчку
+            PrintLine(width, height, frameChar, true);
         }
 
 
@@ -80,12 +80,12 @@
         internal static double ExpTaylor(double x, int n)
         {
             double result = 1;
-            double currentFactorial = 1;  // здесь храним текущее значение факториала
+            double currentFactorial = 1;
             
             for (int i = 1; i <= n; ++i)
             {
-                result += Math.Pow(x, i) / currentFactorial;  // увеличиваем текущую сумму
-                currentFactorial *= (i + 1);  // увеличиваем факториал для соответствия со следующим шагом
+                result += Math.Pow(x, i) / currentFactorial;
+                currentFactorial *= (i + 1);
             }
             
             return result;

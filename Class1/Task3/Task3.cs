@@ -34,13 +34,16 @@
             if (cmd1 + cmd2 == 0 || cmd1 + cmd2 == 4)
             {
                 return 'С';
-            } else if (cmd1 + cmd2 == 1)
+            }
+            if (cmd1 + cmd2 == 1)
             {
                 return 'З';
-            } else if (Math.Abs(cmd1 + cmd2) == 2)
+            }
+            if (Math.Abs(cmd1 + cmd2) == 2)
             {
                 return 'Ю';
-            } else if (cmd1 + cmd2 == 3)
+            }
+            if (cmd1 + cmd2 == 3)
             {
                 return 'В';
             }

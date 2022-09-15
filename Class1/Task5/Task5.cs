@@ -63,10 +63,6 @@ namespace Task5
             int number;
             if (args.Length > 0)
             {
-                // foreach (string arg in args)
-                // {
-                //     Console.WriteLine(arg);
-                // }
                 number = Int32.Parse(args[0]);
             }
             else
