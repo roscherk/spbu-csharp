@@ -1,0 +1,18 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=7df3c377_002D45e7_002D4b26_002Daac5_002D8c8e73fdb823/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from &amp;lt;Task1&amp;gt;" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::8DB38205-62C7-48A3-A4EB-0580959C8239::net6.0::Task2.Tests&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::EB477B20-6866-4208-A23E-DD769E4E5309::net6.0::Task3.Tests.FTest&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::EB477B20-6866-4208-A23E-DD769E4E5309::net6.0::Task3.Tests.Rotate2Test&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::EB477B20-6866-4208-A23E-DD769E4E5309::net6.0::Task3.Tests.NumberOfDaysTest&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::EB477B20-6866-4208-A23E-DD769E4E5309::net6.0::Task3.Tests.AgeDescriptionTest&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::B46F4539-75FC-4AC2-A21D-DF5DA0FB6453::net6.0::Task4.Tests&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::76906F63-9431-4C53-A845-DD8FE3390AB8::net6.0::Task5.Tests&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:Boolean x:Key="/Default/UnloadedProject/UnloadedProjects/=1b69c8eb_002Ddff2_002D42dc_002D9a0c_002D66b3bac21bd4_0023Task1/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UnloadedProject/UnloadedProjects/=76906f63_002D9431_002D4c53_002Da845_002Ddd8fe3390ab8_0023Task5/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UnloadedProject/UnloadedProjects/=8db38205_002D62c7_002D48a3_002Da4eb_002D0580959c8239_0023Task2/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UnloadedProject/UnloadedProjects/=b46f4539_002D75fc_002D4ac2_002Da21d_002Ddf5da0fb6453_0023Task4/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UnloadedProject/UnloadedProjects/=eb477b20_002D6866_002D4208_002Da23e_002Ddd769e4e5309_0023Task3/@EntryIndexedValue">True</s:Boolean>
+	</wpf:ResourceDictionary>
