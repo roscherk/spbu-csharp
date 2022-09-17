@@ -19,10 +19,12 @@
         internal static void PrintLine(int width, int height, char frameChar, bool full)
         {
             Console.Write(frameChar);
+            
             for (int j = 0; j < width - 2; ++j)
             {
                 Console.Write(full ? frameChar : ' ');
             }
+            
             Console.Write($"{frameChar}\n");
         }
         internal static void PrintFrame(int width, int height, char frameChar = '*')
@@ -43,6 +45,7 @@
         internal static void PrintFrame2(int width, int height, char frameChar = '*')
         {
             int i = 0;
+            
             PrintLine(width, height, frameChar, true);
             ++i;
 

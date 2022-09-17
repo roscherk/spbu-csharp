@@ -17,18 +17,19 @@
  */
         internal static int Min3(int a, int b, int c)
         {
-            int var = a;
-            if (b < var)
+            int min = a;
+            
+            if (b < min)
             {
-                var = b;
+                min = b;
             }
 
-            if (c < var)
+            if (c < min)
             {
-                var = c;
+                min = c;
             }
 
-            return var;
+            return min;
         }
 
 /*

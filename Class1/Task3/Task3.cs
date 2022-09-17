@@ -49,19 +49,6 @@
             }
 
             return 'С';
-            // char[] orientations = {'С', 'З', 'Ю', 'В' };
-            // int current_position = 0;
-            // while (orientations[current_position] != orientation)
-            // {
-            //     current_position += 1;
-            // }
-            //
-            // void rotate1(int cmd) => current_position += cmd;
-            //
-            // rotate1(cmd1);
-            // rotate1(cmd2);
-            //
-            // return orientations[current_position % 4];
         }
 
 /*
@@ -104,8 +91,6 @@
                 9 => "девяносто"
             } + " " + result;
             
-            
-
             return result;
         }
 

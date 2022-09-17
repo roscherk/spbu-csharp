@@ -22,6 +22,7 @@ namespace Task5
         internal static void DemoInput(string[] args)
         {
             string name;
+            
             if (args.Length > 0)
             {
                 name = string.Join(' ', args);
@@ -47,20 +48,22 @@ namespace Task5
 
         internal static BigInteger Fib(int n)
         {
-            BigInteger number1 = 0, number2 = 1;
+            BigInteger number0 = 0, number1 = 1;
+            
             for (int i = 2; i <= n; ++i)
             {
-                BigInteger temp = number2;
-                number2 += number1;
-                number1 = temp;
+                BigInteger temp = number1;
+                number1 += number0;
+                number0 = temp;
             }
 
-            return number2;
+            return n == 0 ? number0 : number1;
         }
 
         internal static void ComputeFib(string[] args)
         {
             int number;
+            
             if (args.Length > 0)
             {
                 number = Int32.Parse(args[0]);

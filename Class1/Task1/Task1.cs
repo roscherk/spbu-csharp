@@ -45,8 +45,10 @@
         {
             string? input = Console.ReadLine();
             int number1 = Int32.Parse(input ?? "0");
+            
             input = Console.ReadLine();
             int number2 = Int32.Parse(input ?? "0");
+            
             Console.WriteLine(number1 + number2);
         }
 
